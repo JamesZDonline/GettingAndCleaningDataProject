@@ -8,7 +8,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 "These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions."
 
-The following variables were estimated from this data:
+The following measurements were estimated from this data:
 *tBodyAcc-XYZ
 *tGravityAcc-XYZ
 *tBodyAccJerk-XYZ
@@ -26,6 +26,11 @@ The following variables were estimated from this data:
 *fBodyAccJerkMag
 *fBodyGyroMag
 *fBodyGyroJerkMag"
+
+From these measurements, the mean value and standard deviation were chosen to be included as variables in this dataset, resulting in 86 variables
+
+#Data Summary Methods
+The data were summarized by taking the average of each variable by both study participant and activity factors. The units were not clear in the original dataset, but have not been changed in the processing to create the tidy dataset.
 
 
 
